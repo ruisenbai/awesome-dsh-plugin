@@ -347,7 +347,6 @@ dsh plugin --profile web add dshmarket
 - [Ri0n72Y/dsh-workspace-scope](https://github.com/Ri0n72Y/dsh-workspace-scope) — 按工作区（工程）启停 Skill 与 MCP：每个项目单独控制新会话加载哪些技能与 MCP 工具。
 - [Ricketts-Guo/dsh-shortcuts](https://github.com/Ricketts-Guo/dsh-shortcuts) — Web UI 可自定义键盘快捷键：34 个预置功能（会话、视图、剪贴板、模型、静默权限切换、设置），一键录制自定义组合键，内置快捷键速查表与诊断面板。
 - [riesbri/dshline#dshline](https://github.com/riesbri/dshline/tree/main/packages/dshline) — DeepSeek Harness 的终端原生 TUI 前端，通过 Harness 能力提供会话、模型、插件、任务、子代理、待办事项和 Provider 配置，并保留真实的终端滚动历史。
-- [ruisenbai/dsh-annotation](https://github.com/ruisenbai/dsh-annotation) — 在已完成的助手回复中选中原文，在引文旁添加编号注解；草稿与输入框文字、图片合并为一条用户消息发送，模型按注解逐条回复。
 - [s3yf1337/dsh-desktop#bundle](https://github.com/s3yf1337/dsh-desktop/tree/main/bundle) — dsh 桌面配置：原生 Tauri 窗口承载 harness Web 界面，支持托盘、原生通知、文件管理器面板与一键更新。
 - [SA1992X/dsh-ctrl-enter-submit](https://github.com/SA1992X/dsh-ctrl-enter-submit) — 让对话框中普通 Enter 换行、Ctrl/Cmd+Enter 提交，可在设置中开关。
 - [sakuraqqq/dsh-auto-paste](https://github.com/sakuraqqq/dsh-auto-paste) — 在输入框粘贴大段文本时自动保存为附件文件。
@@ -928,6 +927,7 @@ dsh plugin --profile web add dshmarket
 - [Renzic-Stone/DSH-EasyRewrite](https://github.com/Renzic-Stone/DSH-EasyRewrite) — 在 dsh web 中内联编辑与撤回自己的消息——惰性、无痕，带版本翻页器与会话级草稿持久化。
 - [Ricketts-Guo/dsh-off-peak-message#dsh-offpeak-send](https://github.com/Ricketts-Guo/dsh-off-peak-message/tree/main/dsh-offpeak-send) — 谷时发送调度器：开启谷时模式后输入框消息排队至 DeepSeek 谷时窗口（半价）自动注入会话并得到回复。原生外观输入条、快捷键（Enter 入队 / ⌘+Enter 立即发送 / Esc 退出）、按会话记忆的开关，重启不丢。
 - [robbyisrobby/dsh-codex-pins](https://github.com/robbyisrobby/dsh-codex-pins) — 把 DeepSeek Harness 侧边栏分成可独立滚动的置顶栏和最近栏，置顶过的会话不再出现在最近列表里。
+- [ruisenbai/dsh-annotation](https://github.com/ruisenbai/dsh-annotation) — 需要 DSH 0.2.0-rc.1。在助手消息、官方文件预览和官方 Diff 中添加注解，再与官方输入框文字和附件合并为一条会话用户消息；模型按顺序逐条回答，并用可悬浮的回复芯片关联原文。
 - [RyensX/dsh-message-fold](https://github.com/RyensX/dsh-message-fold) — 为 DeepSeek Harness 提供 Codex 风格的会话消息折叠。
 - [SaiSenBox/dsh-prompt-manager](https://github.com/SaiSenBox/dsh-prompt-manager) — 浏览器本地提示词库：在输入框选择器中同时注入多条会话级系统提示词，支持分支继承、中英界面、收藏与 JSON 备份。
 - [Seetraum/harness-session-delete](https://github.com/Seetraum/harness-session-delete) — DSH 会话回收站：侧边栏删除图标、多选还原与彻底删除、活跃会话保护。
